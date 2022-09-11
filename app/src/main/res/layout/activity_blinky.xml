@@ -203,7 +203,7 @@
 						app:layout_constraintRight_toRightOf="parent" />
 
 					<com.google.android.material.textview.MaterialTextView
-						android:id="@+id/TrigDown_Period_ms"
+						android:id="@+id/textView_TrigDown_ms"
 						android:layout_width="0dp"
 						android:layout_height="wrap_content"
 						android:padding="@dimen/activity_horizontal_margin"

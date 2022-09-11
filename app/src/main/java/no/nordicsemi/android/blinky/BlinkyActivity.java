@@ -105,6 +105,16 @@ public class BlinkyActivity extends AppCompatActivity {
 			binding.ledState.setText(isOn ? R.string.turn_on : R.string.turn_off);
 			binding.ledSwitch.setChecked(isOn);
 		});
+
+		binding.
+
+		// Send Data Button
+		binding.SendButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+
+			}
+		});
 	}
 
 	private void onConnectionStateChanged(final boolean connected) {
